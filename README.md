@@ -1,4 +1,4 @@
-# ChromeFocus: A Productivity Extension
+# Focus extension: A Productivity Extension
 
 This repository contains a **Google Chrome** extension designed to help you stay focused by blocking distracting websites during a configurable _Focus Mode_. When Focus Mode is active, visiting a blocked site redirects you to a motivational page instead of the site’s content. The extension also offers a custom new tab page with quick Focus Mode activation.
 
