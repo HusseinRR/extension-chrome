@@ -4,24 +4,6 @@ This repository contains a **Google Chrome** extension designed to help you stay
 
 ---
 
-## Table of Contents
-
-1. [Features](#features)  
-2. [How It Works](#how-it-works)  
-3. [Installation](#installation)  
-4. [Usage](#usage)  
-5. [Configuration](#configuration)  
-6. [Code Overview](#code-overview)
-   - [manifest.json](#manifestjson)
-   - [content.js](#contentjs)
-   - [popup.html & popup.js](#popuphtml--popupjs)
-   - [newTab.html & newTab.js](#newtabhtml--newtabjs)
-   - [background.js](#backgroundjs)
-7. [Contributing](#contributing)  
-8. [License](#license)  
-
----
-
 ## Features
 
 - **Focus Mode Timer**: Easily enable a focus session for a user-defined number of minutes (default is 50).  
