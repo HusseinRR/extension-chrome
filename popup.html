@@ -1,0 +1,72 @@
+<!-- popup.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Focus Extension Popup</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        min-width: 250px;
+        padding: 10px;
+      }
+      #timer {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+      }
+      button {
+        padding: 5px 10px;
+        margin: 5px 0;
+      }
+      input {
+        width: 60px;
+      }
+      #statusMsg {
+        margin-top: 10px;
+        color: green;
+        font-weight: bold;
+      }
+      textarea {
+        width: 100%;
+        height: 60px;
+        margin-top: 5px;
+        font-family: sans-serif;
+      }
+      .section {
+        margin-top: 15px;
+        border: 1px solid #ccc;
+        padding: 10px;
+      }
+      .section h3 {
+        margin: 0 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Focus Extension</h2>
+
+    <!-- Timer / Focus status -->
+    <div id="timer">Checking focus status...</div>
+
+    <!-- Set focus time -->
+    <div class="section">
+      <h3>Set Focus Time</h3>
+      <label for="focusMinutes">Focus Minutes:</label>
+      <input type="number" id="focusMinutes" value="50" min="1" />
+      <button id="startBlockBtn">Start Focus</button>
+    </div>
+
+    <!-- Configurable blocked sites list -->
+    <div class="section">
+      <h3>Blocked Sites</h3>
+      <p>One hostname per line (e.g., <code>www.youtube.com</code>)</p>
+      <textarea id="blockedSitesInput"></textarea>
+      <button id="saveBlockedSitesBtn">Save Block List</button>
+    </div>
+
+    <!-- Status message display -->
+    <div id="statusMsg"></div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
